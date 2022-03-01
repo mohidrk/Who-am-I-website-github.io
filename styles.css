@@ -1,33 +1,56 @@
-#myVideo {
+
+div {border: thin solid red;}
+* {
+  box-sizing: border-box;
+}
+.header {
+  border: 1px solid red;
+}
+.menu {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+/* video background */
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
   position: fixed;
+  left: 0;
   right: 0;
+  top: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  z-index: -1;
 }
 
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+/* page content */
+* {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
 }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
+h1 {
+  font-size: 6rem;
+  margin-top: 30vh; 
 }
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
+h2 { font-size: 3rem; }
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
 }
