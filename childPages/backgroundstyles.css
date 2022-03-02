@@ -1,0 +1,47 @@
+h1  {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;}
+
+p  {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;}
+
+ strong  {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;}
+
+
+    h1 {text-align: center;}
+
+    h2 {text-align: center;}
+
+    ol {text-align: center;}
+
+    img {text-align: center;}
+
+    .center-left {
+        position: absolute;
+        bottom: -140px;
+        left: 0px;
+    }
+
+    .center-right {
+        position: absolute;
+        bottom: -140px;
+        left: 1090px;
+    }
+
+    .homepage {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-40%) translateY(200px)
+    }
+    footer {text-align: center;}

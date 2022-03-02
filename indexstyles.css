@@ -33,7 +33,7 @@ div {border: thin solid rgb(255, 255, 255);}
 }
 
 /* page content */
-* {
+h1 {
   color: white;
   font-family: Trebuchet MS;
   font-weight: bold;
@@ -42,7 +42,7 @@ div {border: thin solid rgb(255, 255, 255);}
 
 h1 {
   font-size: 6rem;
-  margin-top: 30vh; 
+  margin-top: 10vh; 
 }
 
 h2 { font-size: 3rem; }
@@ -53,4 +53,32 @@ h2 { font-size: 3rem; }
       background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
       background-size: cover;
     }
+}
+footer {text-align: center;}
+
+p {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  position: relative;
+  color: blue;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+  left: 00px;
+}
+h2 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
 }
