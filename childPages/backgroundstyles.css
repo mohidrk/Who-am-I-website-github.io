@@ -25,16 +25,16 @@ p  {
 
     img {text-align: center;}
 
-    .center-left {
+    .center-left { 
         position: absolute;
-        bottom: -140px;
-        left: 0px;
+        bottom: 25%;
+        left: 0%;
     }
 
-    .center-right {
+    .center-right { 
         position: absolute;
-        bottom: -140px;
-        left: 1090px;
+        bottom: 25%;
+        left: 87%;
     }
 
     .homepage {
@@ -42,6 +42,6 @@ p  {
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translateX(-40%) translateY(200px)
+        transform: translateX(-40%) translateY(20%)
     }
     footer {text-align: center;}
